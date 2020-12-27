@@ -1,0 +1,15 @@
+case 01: undefined variables
+case 02: undefined functions
+
+case 03: redefined variables
+case 04: redefined functions
+
+case 05: array index must be integers
+case 06: function calling
+
+case 07: operation must be integers
+case 08: return type
+case 09: void variables
+case 10: assign type
+
+case 11: if/while condition

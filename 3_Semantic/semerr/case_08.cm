@@ -1,0 +1,27 @@
+int funcA(void)
+{
+  return 10;
+}
+
+void funcB(void)
+{
+  return 10;
+}
+
+int funcC(void)
+{
+  return;
+}
+
+void funcD(void)
+{
+  return;
+}
+
+int funcE(void)
+{
+}
+
+void funcF(void)
+{
+}

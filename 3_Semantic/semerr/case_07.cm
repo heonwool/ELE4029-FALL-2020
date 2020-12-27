@@ -1,0 +1,11 @@
+int main(void)
+{
+  int A;
+  int array[10];
+
+  A = array + array;
+  A = (1 < 2) + A;
+  A = 1 > 2;
+
+  return A;
+}

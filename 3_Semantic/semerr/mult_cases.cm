@@ -1,0 +1,47 @@
+int foo(int a[]) {
+  return a[0];
+}
+
+int bar(int a) {
+  int b[10];
+  return b;
+}
+
+void main(void) {  
+  int b;
+  int b;
+  
+  int c;
+  int d;
+  int e[12];
+
+  void g;
+  
+  a = a < 3 - 1 * 4;
+
+  c = 0;
+  d = 1;
+  
+  if(c + d == 1) {
+    int c;
+    int d;
+  }
+  
+  e[f];
+  
+  foo(e);
+  
+  foo(e, f);
+
+  b = foo(e);
+  
+  foo(b);
+  
+  b = input();
+  output(b);
+  
+  b = c + main();
+  
+  if (g) {}
+  while(g) {}
+}

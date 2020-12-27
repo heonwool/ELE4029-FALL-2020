@@ -1,0 +1,14 @@
+int functionA(int intA, void voidB, int arrC[])
+{
+  return intA;
+}
+
+int main(void)
+{
+  int inpA;
+  int inpC;
+
+  functionA(inpA, inpA, inpC);
+
+  return inpA;
+}

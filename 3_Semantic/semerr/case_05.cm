@@ -1,0 +1,9 @@
+int main(void) 
+{
+  int array[10];
+  int index[1];
+
+  array[1] = array[index];
+
+  return array[1];
+}

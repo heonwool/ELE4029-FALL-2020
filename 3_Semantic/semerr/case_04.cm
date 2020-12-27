@@ -1,0 +1,9 @@
+int main(void)
+{
+  return 1;
+}
+
+void main(int argc)
+{
+  return 2;
+}

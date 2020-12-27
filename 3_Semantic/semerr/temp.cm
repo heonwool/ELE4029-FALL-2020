@@ -1,0 +1,24 @@
+int funcA(int a[]) {
+	return a[0];
+}
+/* funcA is OK */
+
+int funcB(int a) {
+	int b[10];
+	return b;
+}
+/* funcB is BAD semantic, but No error now */
+
+void main(void) {
+	int b;
+	int b;
+	/* b is redefined in same scope */
+
+	int c;
+	int d;
+	int e[10];
+
+	e[2] = 1;
+
+	a  = a < 1 - 5 * 6;
+}

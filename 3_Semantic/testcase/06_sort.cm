@@ -1,0 +1,65 @@
+/* Selection sort */
+
+int data[10];
+
+int minLoc ( int parm[], int low, int high )
+{
+    int i;
+    int x;
+    int k;
+
+    k = low;
+    x = parm[low];
+    i = low + 1;
+
+    while ( i < high )
+    {
+        if ( parm[i] < x )
+        {
+            x = parm[i];
+            k = i;
+        }
+        
+        i = i + 1;
+    }
+    
+    return k;
+}
+
+void sort ( int parm[], int low, int high )
+{
+    int i;
+    int k;
+    i = low;
+    
+    while ( i < high-1 )
+    {
+        int t;
+        k = minLoc(parm, i, high);
+        t = parm[k];
+        parm[k] = parm[i];
+        parm[i] = t;
+        i = i + 1;
+    }
+}
+
+void main (void)
+{
+    int i;
+
+    i = 0;
+    while ( i < 10 )
+    {
+        data[i] = input();
+        i = i + 1;
+    }
+    
+    sort(data, 0, 10);
+    
+    while ( i < 10 )
+    {
+        output(data[i]);
+        i = i + 1;
+    }
+}
+    

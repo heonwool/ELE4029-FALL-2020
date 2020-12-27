@@ -1,0 +1,19 @@
+void dummy(void) {}
+
+int main(void)
+{
+  int array[10];
+  int single;
+
+  single = array[1];
+  single = array;
+  single = dummy();
+
+  array = single;
+  array = dummy();
+ 
+  array[1] = single;
+  array[1] = dummy(); 
+
+  return single;
+}

@@ -1,0 +1,25 @@
+int functionA(int inputA)
+{
+    inputA = inputA + 1;
+    return inputA;
+}
+
+int functionB(int inputB)
+{
+    inputB = inputB + 2;
+    return inputB;
+}
+
+int functionC(int inputC)
+{
+    inputC = inputC + 3;
+    return inputC;
+}
+
+int main(void)
+{
+    int i;
+    i = 0;
+    i = functionC(functionB(functionA(i)));
+    return i;
+}

@@ -1,0 +1,22 @@
+Error(while building SymTab) at line 15: Duplicated Declaration of Variables with the Same Name; It will not be added into Symbol Table!
+Error(while building SymTab) at line 25: Using Undeclared Variable that does not exist in Symbol Table
+Error(while building SymTab) at line 25: Using Undeclared Variable that does not exist in Symbol Table
+Error(while building SymTab) at line 37: Using Undeclared Variable that does not exist in Symbol Table
+Error(while building SymTab) at line 43: Using Undeclared Variable that does not exist in Symbol Table
+
+
+Error(while type-checking) at line 9: Invalid Return Type!, Return Type should be [Interger]
+Error(while type-checking) at line 6: Return-Statement is [Missing] or [NOT properly stated] in this function
+Error(while type-checking) at line 22: Declaration of [Void] type Variable is Invaild
+Error(while type-checking) at line 25: Using Undeclared Variable
+Error(while type-checking) at line 25: Using Undeclared Variable
+Error(while type-checking) at line 25: Operand of RelOp should be [Interger] type
+Error(while type-checking) at line 25: Type Conflict in Assignment; LHS's type and RHS's type should be all Integer
+Error(while type-checking) at line 37: Using Undeclared Variable
+Error(while type-checking) at line 43: Using Undeclared Variable
+Error(while type-checking) at line 43: Need Proper Parameter for Function Call
+Error(while type-checking) at line 49: Need Proper Parameter for Function Call
+Error(while type-checking) at line 56: Operand of Op should be [Interger] type
+Error(while type-checking) at line 56: Type Conflict in Assignment; LHS's type and RHS's type should be all Integer
+Error(while type-checking) at line 59: Invalid Expression, Conditional of If() should be [Boolean] Type
+Error(while type-checking) at line 60: Invalid Expression, Conditional of While() should be [Boolean] Type

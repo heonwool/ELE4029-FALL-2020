@@ -1,0 +1,61 @@
+int func(int a[]) {
+  /* return type is ok */
+  return a[0];
+}
+
+int funcc(int a) {
+  int b[10];
+  /* return type is wrong */
+  return b;
+}
+
+void main(void) {  
+  /* b is redefined in same scope */
+  int b;
+  int b;
+  
+  int c;
+  int d;
+  int e[10];
+
+  /* Void variable */
+  void g;
+  
+  /* a is not defined */
+  a = a < 1 - 5 * 6;
+
+  c = 0;
+  d = 1;
+  
+  if(c + d == 1) {
+    /* This is not error. */
+    int c;
+    int d;
+  }
+  
+  /* f is not integer. */
+  e[f];
+  
+  /* ok */
+  func(e);
+  
+  /* more parameter */
+  func(e, f);
+
+  /* different type is being saved. */
+  b = func(e);
+  
+  /* The parameter type is different. */
+  func(b);
+  
+  /* no builtin */
+  b = input();
+  output(b);
+  
+  /* Not integer in the formula */
+  b = c + main();
+  
+  /* if, while statement is not integer */
+  if (g) {}
+  while(g) {}
+}
