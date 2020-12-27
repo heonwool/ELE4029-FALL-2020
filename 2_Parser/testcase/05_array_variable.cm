@@ -1,0 +1,12 @@
+int globalArr[3];
+
+int main ( void )
+{
+    void c;
+    int arr[10];
+
+    arr[0] = 10;
+    arr[1] = 20;
+
+    return arr[1];
+}

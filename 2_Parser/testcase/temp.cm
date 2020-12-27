@@ -1,0 +1,14 @@
+int A;
+int B;
+int C;
+
+int main (void)
+{
+    funcA(funcB(10, funcD(30)), funcC(20));
+
+    testA[testB[testC[1]]] = 1;
+
+    testA[testB[idx]] = 1;
+
+    A = B = C = 3;
+}
